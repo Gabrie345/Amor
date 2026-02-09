@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Sabrina ❤️</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💗</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1 class="name">Sabrina</h1>
+            <div class="hearts">
+                <span class="heart">💗</span>
+                <span class="heart">💗</span>
+                <span class="heart">💗</span>
+            </div>
+            <p class="message">com amor,</p>
+            <p class="signature">Gabriel</p>
+            
+            <div class="letter-container">
+                <div class="icons-wrapper">
+                    <div class="letter-icon" id="letterIcon">💌</div>
+                    <div class="photos-icon" id="photosIcon">📷</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal da Carta -->
+    <div class="modal" id="letterModal">
+        <div class="modal-hearts" id="modalHearts"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="closeModal">&times;</button>
+            <div class="letter">
+                <div class="letter-content">
+                    <p>Eu não lembro do primeiro momento em que gostei de você,<br>
+                    porque não foi um momento — foi um monte de pequenos momentos.</p>
+                    
+                    <p>As conversas sem assunto, olhando para o casino em malta.<br>
+                    as risadas meio bobas, sobre algum assunto completamente aleatório.<br>
+                    a preocupação sincera sobre o universo</p>
+                    
+                    <p>Você foi deixando tudo mais leve sem nem tentar.<br>
+                    E de repente, coisas comuns ficaram importantes<br>
+                    só porque eram com você.</p>
+                    
+                    <p>Você virou meu lugar confortável no mundo.<br>
+                    E se depender de mim,<br>
+                    quero continuar escolhendo você todos os dias.</p>
+                    
+                    <p class="letter-signature">— com amor, sempre.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal da Galeria de Fotos -->
+    <div class="modal" id="photosModal">
+        <div class="modal-hearts" id="photosModalHearts"></div>
+        <div class="modal-content photos-modal-content">
+            <button class="modal-close" id="closePhotosModal">&times;</button>
+            <div class="photos-gallery">
+                <h2 class="gallery-title">Nossos Momentos 💕</h2>
+                <div class="photos-grid" id="photosGrid">
+                    <!-- As fotos serão adicionadas aqui via JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
